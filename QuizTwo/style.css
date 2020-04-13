@@ -1,0 +1,100 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body, html {
+    background: -webkit-gradient(linear, left bottom, left top, from(#fbc2eb), to(#a18cd1));
+    background: -webkit-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
+    background: -moz-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
+    background: -o-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
+    background: linear-gradient(to top, #fbc2eb 0%, #a18cd1 100%);
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    
+  
+}
+input[type=text], select, textarea {
+    width: auto;
+    padding: auto; 
+    border: 1px solid #ccc; 
+    border-radius: auto;
+    box-sizing: border-box; 
+    margin-top: auto; 
+    margin-bottom: auto;
+    resize: vertical 
+  }
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+.home-page {
+    width: 600px;
+    padding: 2% 0 0;
+    margin: auto;
+}
+.form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: left;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+
+  .form input {
+    font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+  
+}
+
+.formTwo{
+    background-color:  #FFFFFF;
+    width: 30%;
+    margin: auto;
+    padding: 3%;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    text-align: left;
+}
+
+.formTwo input {
+    font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+    
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+
+}
+button {
+    text-align: center;
+    background-color: rgb(233, 177, 211);
+    border: none;
+    height: 40px;
+    width: 40%;
+    font-size: 20px;
+    color: black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display: inline-block;
+    margin-left: 25%;
+    transition: transform .2s;
+}
+button:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
